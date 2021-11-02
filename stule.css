@@ -1,0 +1,277 @@
+.japan{
+    width: 600px;
+    height: 420px;
+}
+.flag{
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+.red{
+    width: 190px;
+    height: 190px;
+    border-radius:100%;
+    background: red;
+}
+h1{
+    text-align: center;
+}
+.instagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    position: relative ;
+    top: 70px;
+    left: 500px;
+    background: #f09433;
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.main{
+    width: 240px;
+    height: 240px;
+    border: 15px solid white;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big{
+    width: 120px;
+    height: 120px;
+    border: 17px solid white;
+    border-radius: 100%;
+}
+.small{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: relative;
+    top: -4px;
+    right: -155px;
+}
+.kuala{
+    position: relative;
+    top:-700px;
+    left:750px
+}
+.face{
+    background-color: rgb(148, 148, 148);
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    z-index: 2 ;
+    position: relative;
+}
+.eyes{
+    height: 76px;
+    width: 76px;
+    background-color: #fff;
+    border-radius: 50%;
+    
+}
+.first{
+    position: relative;
+    top: 80px;
+    right: -79px;
+}
+.second{
+    position: relative;
+    top: 7px;
+    right: -135px;
+}
+.mini{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+}
+.m1{
+    position: relative;
+    top: 30px;
+    right: -28px;
+}
+.m3{
+    position: relative;
+    top: 30px;
+    right: -28px;
+}
+ .nouse{
+    width: 60px;
+    height: 80px;
+    border-radius: 35%;
+    background-color: rgb(80, 80, 80);
+    position: relative;
+    top: -7px;
+    right:-113px;
+} 
+.ears{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    z-index: 1;
+    background-color: rgb(80, 80, 80);
+    border: 3px solid rgb(148, 148, 148);
+    position: static;
+}
+.left{
+    position: relative;
+    top:-300px;
+    right: 90px;
+}
+ .right{
+    position: relative;
+    bottom: 476px;
+    right: -213px; ;
+} 
+.main-s{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 0, 221);
+    border: 1px solid rgb(23, 0, 153);
+    border-radius: 50%;
+    position: relative;
+    top: -800px;
+    right:-100px;
+    z-index:2 ;
+}
+p{
+    font-size: 100px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.small-s{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(22, 0, 221);
+    border-radius: 50%;
+    z-index: 1;
+}
+.s1{
+    position: relative;
+    top: -960px;
+    right: -100px;
+}
+.s2{
+    position: relative;
+    top: -927px;
+    right: -180px;;
+}
+.pencil{
+    height: 500px;
+    width: 90px;
+}
+.top{
+    background-color: rgb(0, 0, 0);
+    width: 40px;
+    height: 40px;
+    clip-path: polygon(50% 0%, 100% 90%, 100% 100%, 0 100%, 0 90%);
+    position: relative;
+    bottom: 1300px;
+    left: 1000px;
+    z-index: 2;
+}
+.wood{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(255, 208, 137);
+    clip-path: polygon(50% 0%, 100% 90%, 100% 100%, 0 100%, 0 90%);
+    position: relative;
+    bottom: 1340px;
+    left: 975px;
+    z-index: 1;
+}
+.main-w{
+    width: 90px;
+    height: 410px;
+}
+.wood1{
+    position: relative;
+    bottom: 1355px;
+    left: 975px;
+    z-index: 3;
+    border: 0.5px solid black;
+    border-radius: 50px 50px 0 0px;
+    width: 25px;
+    height: 410px;
+        animation: mig  1s infinite;
+        }
+        @keyframes mig {
+        0% {
+          background:rgb(21, 255, 0);
+        }
+        50% {
+         background: blue;
+        }
+        51% {
+          background: red;
+        }
+        100% {
+          background: rgb(99, 224, 255);
+        }
+    }
+.wood2{
+    position: relative;
+    bottom: 1767px;
+    left: 1000px;
+    z-index: 3;
+    border: 0.5px solid black;
+    border-radius: 50px 50px 0 0px;
+    width: 40px;
+    height: 410px;
+    animation: mig  1s infinite;
+}
+@keyframes mig {
+0% {
+  background: rgb(21, 255, 0);
+}
+50% {
+ background: blue;
+}
+51% {
+  background: red;
+}
+100% {
+  background: rgb(99, 224, 255);
+}
+}
+.wood3{
+    position: relative;
+    bottom: 2179px;
+    left: 1040px;
+    z-index: 3;
+    border: 0.5px solid black;
+    border-radius: 50px 50px 0 0px;
+    width: 25px;
+    height: 410px;
+        animation: mig  1s infinite;
+        }
+        @keyframes mig {
+        0% {
+          background: rgb(21, 255, 0);
+        }
+        50% {
+         background: blue;
+        }
+        51% {
+          background: red;
+        }
+        100% {
+          background: rgb(99, 224, 255);
+        }
+}
+
